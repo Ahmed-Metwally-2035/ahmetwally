@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 
@@ -34,12 +34,27 @@
     <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
     <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
     <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
-
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sara mazal lessons">
+    <meta name="keywords" content="HTML, CSS, JavaScript, mazal, icons">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
     <!-- Modernizr JS File -->
     <script src="js/modernizr.custom.js"></script>
 </head>
 
 <body class="blog">
+<canvas class="background"></canvas>
+
 <!-- Live Style Switcher Starts - demo only -->
 <div id="switcher" class="">
     <div class="content-switcher">
@@ -98,6 +113,12 @@
                 <h2>About</h2>
             </a>
         </li>
+        <li class="icon-box">
+            <i class="fa fa-briefcase"></i>
+            <a href="portfolio.html">
+                <h2>Portfolio</h2>
+            </a>
+        </li>
 
         <li class="icon-box">
             <i class="fa fa-envelope-open"></i>
@@ -123,6 +144,8 @@
             <ul class="list-unstyled" id="menu">
                 <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
                 <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+
                 <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
                 <li class="active"><a href="blog1.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
@@ -155,8 +178,7 @@
                                         <h3><a href="blog-post3.html">Everything You Need to Know About Web Accessibility</a></h3>
                                     </div>
                                     <div class="entry-content open-sans-font">
-                                        <p>In simpler words, “web accessibility” is an effective way to ensure “everyone on the web” can effortlessly access and use any forms of digital media. It can be a website, or it can be any software application as well. 
-                                            ...
+                                        <p>In simpler words, “web accessibility” is an effective way to ensure “everyone on the web” can effortlessly access and use any forms of digital media. It can be a website, or it can be any software application as well. Now, why did I focus on the part “everyone on the web”?...
                                         </p>
                                     </div>
                                 </div>
@@ -197,7 +219,7 @@
                                         <h3><a href="blog-post6.html">Evergreen versus topical content: An overview</a></h3>
                                     </div>
                                     <div class="entry-content open-sans-font">
-                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...
+                                        <p>When evaluating the time sensitivity of the content that you create, there are two major categories. Content will either be topical or evergreen. You should always include both categories in your marketing strategy, as each has its ideal purpose. At the....
                                         </p>
                                     </div>
                                 </div>
@@ -225,9 +247,10 @@
 <!-- Template JS Files -->
 <script src="js/jquery-3.5.0.min.js"></script>
 <script src="js/styleswitcher.js"></script>
+<script src="js/script.js"></script>
 <script src="js/preloader.min.js"></script>
 <script src="js/fm.revealator.jquery.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script> 
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/cbpGridGallery.js"></script>
@@ -235,6 +258,7 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/custom.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 
 </body>
 

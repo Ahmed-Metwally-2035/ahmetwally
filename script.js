@@ -43,3 +43,10 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
+window.onload = function () {
+  Particles.init({
+    selector: ".background"
+  });
+};
+
+
